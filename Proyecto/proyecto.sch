@@ -33,13 +33,14 @@ LIBS:w_analog
 LIBS:PICKIT3
 LIBS:POLOLUV1
 LIBS:RN42XV
+LIBS:proyecto-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "19 nov 2014"
+Date "20 nov 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -205,23 +206,23 @@ $Comp
 L LED D1
 U 1 1 546C5536
 P 7250 3450
-F 0 "D1" H 7250 3550 50  0000 C CNN
-F 1 "LED" H 7250 3650 50  0000 C CNN
+F 0 "D1" H 7250 3350 50  0000 C CNN
+F 1 "LED" H 7250 3250 50  0000 C CNN
 F 2 "~" H 7250 3450 60  0000 C CNN
 F 3 "~" H 7250 3450 60  0000 C CNN
 	1    7250 3450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L LED D2
 U 1 1 546C5545
 P 7600 3550
-F 0 "D2" H 7600 3350 50  0000 C CNN
-F 1 "LED" H 7600 3450 50  0000 C CNN
+F 0 "D2" H 7600 3650 50  0000 C CNN
+F 1 "LED" H 7600 3750 50  0000 C CNN
 F 2 "~" H 7600 3550 60  0000 C CNN
 F 3 "~" H 7600 3550 60  0000 C CNN
 	1    7600 3550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R3
